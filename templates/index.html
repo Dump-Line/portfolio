@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+</head>
+<body>
+  <div class="cv">
+    <section>
+      <h1>Honcharenko Olexsandr</h1>
+      <h2>Web developer</h2>
+
+      <div class="contacts">
+        <div class="contact">
+          <div class="contact__type">
+            Github
+          </div>
+          <div class="contact__value">
+            <a href="https://github.com/Dump-Line">https://github.com/Dump-Line</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__type">
+            Email
+          </div>
+          <div class="contact__value">
+            dumpline0@gmail.com
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__type">
+            Phone
+          </div>
+          <div class="contact__value">
+            +380977153121
+          </div>
+        </div>
+      </div>
+      <div class="description">
+        I've been in commercial development for over 2 years. Previously worked on the  <a href="https://kwork.ru/user/dump-line">Kwork</a>. The essence of the work was writing web applications, chat bots and add-ons to them (Panel, Web version).
+      </div>
+    </section>
+
+    <section>
+      <h3>Experience</h3>
+
+      <div class="experience">
+        <div class="experience__date">03.01.2022 - present</div>
+        <div class="experience__description">
+          <div class="experience__name">Web Developer</div>
+          <div class="experience__company"><a href="https://kwork.ru/user/dump-line">Kwork</a>(https://kwork.ru/user/dump-line)</div>
+          <div class="experience__details">
+            <ul>
+              <li>Create MVC applications</li>
+              <li>Create Backend using Flask</li>
+              <li>Create databases using PostgreSQL</li>
+              <li>Create test and automation using Selenium</li>
+              <li>Create REST API applications</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <div>
+        Python, Flask, Celery, Redis, SQL / SQLite / MySQL / PostgreSQL / SQLAlchemy, MongoDB, git, Selenium, HTML, CSS, JS, Docker, Linux, English
+      </div>
+    </section>
+  </div>
+
+  <script src='js/script.js'></script>
+</body>
+</html>
